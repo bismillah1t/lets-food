@@ -1,0 +1,292 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+            box-sizing: border-box;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 70px;
+}
+
+/*.span{
+    height: 5px;
+    width: 172px;
+    display: inline-block;
+    background: red;
+    border-radius: 5px;
+    margin-left:250px;
+}*/
+
+header{
+     position: fixed;
+  
+    
+   width: 1280px;
+   height: 1900px;
+    margin: 20px 50px;
+   
+    background-repeat: no-repeat;
+
+}
+.all{
+     background-image: url(../images/shapes.png);
+
+}
+nav{ margin: auto;
+    margin:-200px 0 150px 450px;
+    padding: 50px 0px;
+    
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+
+
+}
+nav ul li a{
+     color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 0 0 15px;
+    text-transform: capitalize;
+    
+}
+
+.main{
+   
+    display: flex;
+    margin: 160px 50px;
+
+}
+.one h2{
+    
+   font-size: 60px;
+}
+.one h2 span{
+    color:#FFCB45 ;
+}
+.one button{
+  
+     background: #FFCB45;
+    border: 1px solid #FFCB45;
+    padding: 10px 22px;
+    border-radius:35px;
+    color:black;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 25px;
+   
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.main two{
+    height: 1600px;
+}
+
+/*====service===*/
+    .service-section{
+
+    }
+    .sen{
+       text-align: center;
+    }
+    .sen h4{
+        color: #FFAC4B;
+        margin-bottom: 10px;
+    }
+    .sen h1{
+        margin: -20px 0 0 0;
+    }
+    .sen p{}
+.service{
+    display: flex;
+    gap: 60px;
+    margin: 70px 130px;
+}
+.service-item{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0 60px;
+    border-radius:6px;
+}
+.service-item img{
+    height: 180px;
+    width: 200px;
+}
+.service-item h4{
+    font-size: 22px;
+    margin: 10px 0;
+}   
+.service-item p{}
+.service2{
+    display: flex;
+    gap: 25px;
+    margin: 70px 30px;
+
+    .service-item5{
+        width: 700px;
+    }
+      .service-item6{
+        text-align: center;
+      }
+      .item6{
+        display:inline;
+      }
+      . mad{
+        margin-left: 150px;
+        padding: 200px;
+      }
+
+     /* === EXPLORE THE WORLD section start ==== */
+     .big{text-align: center;
+    
+
+
+
+     }
+.explore{
+    background-image: url(../images/father.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment:fixed;
+    background-color: rgba(0, 0, 255, 0.416);
+    background-blend-mode: multiply;
+    padding: 60px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== banner section ==== */
+.banner{
+    text-align: center;
+    padding: 50px 0 100px 0px;
+   
+}
+.banner h4{
+    font-size: 25px;
+    font-style: italic;
+    margin: 161px 0 5px 0;
+}
+
+.banner button{
+    background: red;
+    border: 1px solid red;
+    padding: 15px 30px;
+    border-radius:35px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.banner button:hover{
+    background: rgba(255, 0, 0, 0);
+    letter-spacing: 3px;
+   
+}
+
+/* === upcomming event ===== */
+.event-main{
+    padding: 50px 14%;
+    text-align: center;
+}
+.event-main h3{
+    font-size: 40px;
+    margin: 20px 0 0 0;
+}
+
+.event{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 30px 0 0 0;
+}
+.event-item{
+    width: 50%;
+    margin: 20px;
+    /* text-align: center; */
+}
+.event-item img{
+    height: 350px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+}
+.event-item h5{
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+
+.event-item a{
+    color: red;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+ /*.abig h2{
+  color: white;
+    text-align: center;
+   margin-top: 20px;
+
+ }
+ .bgp{
+    background-image: url(../images/shapes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+ }*/
+
+
+/* footer */
+
+
